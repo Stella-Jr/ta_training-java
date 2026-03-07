@@ -1,0 +1,7 @@
+com\epam\training\student_stella_lopez\core\BaseTest.class
+com\epam\training\student_stella_lopez\core\ConfigReader.class
+com\epam\training\student_stella_lopez\core\DriverManager.class
+com\epam\training\student_stella_lopez\pages\InventoryPage.class
+com\epam\training\student_stella_lopez\pages\LoginPage.class
+com\epam\training\student_stella_lopez\core\DriverFactory.class
+com\epam\training\student_stella_lopez\utils\WaitUtils.class
