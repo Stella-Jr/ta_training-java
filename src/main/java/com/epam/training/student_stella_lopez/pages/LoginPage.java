@@ -25,12 +25,10 @@ public class LoginPage {
         driver.get(PAGE_URL);
     }
 
-    // Enter username into the username field
     public void enterUsername(String username) {
         driver.findElement(usernameInput).sendKeys(username);
     }
 
-    // Enter password into the password field
     public void enterPassword(String password) {
         driver.findElement(passwordInput).sendKeys(password);
     }
@@ -54,7 +52,6 @@ public class LoginPage {
         WaitUtils.waitUntilInputIsEmpty(driver, passwordInput, 5);
     }
 
-    // Click the login button
     public void clickLogin() {
         driver.findElement(loginButton).click();
     }
